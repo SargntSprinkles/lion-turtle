@@ -1,2 +1,1 @@
-# lion-turtle
-Avatar Legends RPG Character Creator
+# Lion Turtle - The Avatar Legends RPG Character Creator
