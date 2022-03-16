@@ -1,0 +1,36 @@
+{{define "content"}}
+<div class="form">
+<form action="/character/{{.character.ID}}" method="POST">
+<input type="hidden" name="ID" value="{{.character.ID}}" />
+<label for="Name">Name:</label>
+<input type="text" name="Name" value="{{.character.Name}}" maxlength="50" />
+<br><label for="Playbook">Playbook:</label>
+<select name="Playbook">
+    {{range .playbooks}}
+        <option value="{{.}}" {{if eq $.character.Playbook .}}selected{{end}}>{{.}}</option>
+    {{end}}
+</select>
+<br><label for="Training">Training:</label>
+<select name="Training">
+    <option value="Waterbending" {{if eq .character.Training "Waterbending"}}selected{{end}}>Waterbending</option>
+    <option value="Firebending" {{if eq .character.Training "Firebending"}}selected{{end}}>Firebending</option>
+    <option value="Earthbending" {{if eq .character.Training "Earthbending"}}selected{{end}}>Earthbending</option>
+    <option value="Airbending" {{if eq .character.Training "Airbending"}}selected{{end}}>Airbending</option>
+    <option value="Weapons" {{if eq .character.Training "Weapons"}}selected{{end}}>Weapons</option>
+    <option value="Technology" {{if eq .character.Training "Technology"}}selected{{end}}>Technology</option>
+</select>
+<br><label for="Name">Fighting Style:</label>
+<input type="text" name="FightingStyle" value="{{.character.FightingStyle}}" maxlength="150" />
+<br>Background:
+<br><input type="checkbox" name="BackgroundMilitary" value="1" />Military
+<br><input type="checkbox" name="BackgroundMonastic" value="1" />Monastic
+<br><input type="checkbox" name="BackgroundOutlaw" value="1" />Outlaw
+<br><input type="checkbox" name="BackgroundPrivileged" value="1" />Privileged
+<br><input type="checkbox" name="BackgroundUrban" value="1" />Urban
+<br><input type="checkbox" name="BackgroundWilderness" value="1" />Wilderness
+<br><label for="Name">Hometown:</label>
+<input type="text" name="Hometown" value="{{.character.Hometown}}" maxlength="150" />
+<p><input type="submit" value="Save" />
+</form>
+</div>
+{{end}}

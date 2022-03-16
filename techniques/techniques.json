@@ -1,0 +1,14 @@
+{
+    "Pinpoint Aim": {
+        "Name": "Pinpoint Aim",
+        "Approach": "Defend & Maneuver",
+        "Description": "Take the time you need to line up a perfect shot; become <em>Prepared</em>. In the next exchange, if you <strong>advance and attack</strong>, roll with <strong>Focus</strong> or <string>Passion</strong>, your choice. If you use Strike, you do not have to mark fatigue to choose what you inflict.",
+        "Playbook": "The Adamant"
+    },
+    "Tag Team": {
+        "Name": "Tag Team",
+        "Approach": "Defend & Maneuver",
+        "Description": "Work with an ally against the same foe; choose an engaged foe and an ally-—double any fatigue, conditions, or balance shifts that ally inflicts upon that foe.",
+        "Playbook": "The Bold"
+    }
+}

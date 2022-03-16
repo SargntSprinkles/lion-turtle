@@ -1,0 +1,9 @@
+{{define "content"}}
+Are you sure you want to send {{.Name}} to the Spirit World? Once they leave, even the Avatar cannot bring them back.
+<form action="/character/{{.ID}}/delete/confirm" method="POST">
+<button>Yes, their story is finished</button>
+</form>
+<form action="/character/{{.ID}}" method="GET">
+<button>No, there is more they must do</button>
+</form>
+{{end}}

@@ -1,0 +1,14 @@
+{{define "characterpreview"}}
+<div class="charprev">
+    <a href="/character/{{.ID}}">{{.Name}}</a>
+</div>
+{{end}}
+
+{{define "content"}}
+<div class="charcontainer">
+    {{range $c := .characters}}
+        {{template "characterpreview" $c}}
+    {{end}}
+    <div class="charprev"><a href="character/create">New Character</a></div>
+</div>
+{{end}}

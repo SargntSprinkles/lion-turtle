@@ -1,0 +1,7 @@
+{{define "content"}}
+<h1>{{.character.Name}}</h1>
+<div class="characterfields">
+Playbook: {{.character.Playbook}}
+</div>
+<form method="GET" action="/character/{{.character.ID}}/edit"><button type="submit">Edit</button></form><form method="GET" action="/character/{{.character.ID}}/delete"><button type="submit">Delete</button></form><br><br>
+{{end}}

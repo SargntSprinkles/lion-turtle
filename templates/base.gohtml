@@ -1,0 +1,25 @@
+{{define "base"}}
+<html>
+<head>
+    {{template "style"}}
+</head>
+<body>
+    <h1><a href="/">Lion Turtle</a></h1>
+    <h4>Avatar Legends RPG Character Creator</h4>
+    {{if eq .highlight "character"}}
+        <a href="/" class="highlight">My Characters</a>
+    {{else}}
+        <a href="/">My Characters</a>
+    {{end}}
+    |
+    {{if eq .highlight "reference"}}
+        <a href="/reference" class="highlight">Reference</a>
+    {{else}}
+        <a href="/reference">Reference</a>
+    {{end}}
+    <hr />
+    {{template "content" .}}
+    {{template "footer"}}
+</body>
+</html>
+{{end}}

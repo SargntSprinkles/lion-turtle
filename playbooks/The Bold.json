@@ -1,0 +1,64 @@
+{
+    "Playbook": "The Bold",
+    "Source": "Core",
+    "Principles": [
+        "Loyalty",
+        "Confidence"
+    ],
+    "StartingCreativity": 1,
+    "StartingFocus": 1,
+    "StartingHarmony": 0,
+    "StartingPassion": -1,
+    "DemeanorOptions": [
+        "Affable",
+        "Enthusiastic",
+        "Impatient",
+        "Impetuous",
+        "Sensitive",
+        "Talkative"
+    ],
+    "HistoryQuestions": [
+        "Why do you feel the need to prove yourself so badly?",
+        "Who epitomizes the kind of big, bold figure you hope to be?",
+        "Whose approval do you think you will never attain?",
+        "What token or symbol do you wear to prove you are serious?",
+        "Why are you committed to this group or purpose?"
+    ],
+    "Feature": {
+        "Name": "",
+        "Description": ""
+    },
+    "Connections": [
+        "scoffs at me and my plans; one day I'll show them what I can do.",
+        "has a pretty good head on their shoulders; they're a great sounding board for my ideas."
+    ],
+    "MomentOfBalance": " The greatest heroes of your age may have overwhelming confidence, but balance isn't about pursuing greatness for the sake of greatness. You find a way to stand with your companions like no one else ever could. Tell the GM how you strike down an impossibly strong enemy or obstacle to pro- tect your friends from harm as the best version of yourself.",
+    "GrowthQuestion": "Did you express vulnerability by admitting you were wrong or that you should have listened to someone you ignored?",
+    "Moves": [
+        {
+            "Name": "Best Friend",
+            "Description": "Your best friend is small, fuzzy, and depend- able. Unlike all your other relationships, this one is simple and true. You can understand and communicate with your small companion and--although they may give you a hard time now and again--they are always there when you need them most. Whenever your pal could help you push your luck, mark fatigue to roll with <strong>Creativity</strong> instead of <strong>Passion</strong>. If your pet ever gets hurt, mark a condition."
+        },
+        {
+            "Name": "Here's the Plan",
+            "Description": "When you commit to a plan you've proposed to the group, roll with <strong>Creativity</strong>; take a -1 for each of your companions who isn't on board. On a 10+, hold 2. On a 7-9, hold 1. You can spend your hold 1-for-1 while the plan is being carried out to overcome or evade an obstacle, create an advantage, or neutralize a danger; if any of your companions abandon you while the plan is underway, you must mark a condition. On a miss, hold 1, but your plan goes awry when you encounter surpris- ing opposition."
+        },
+        {
+            "Name": "Not Done Yet!",
+            "Description": "Once per session, when you are taken out, shift your balance towards center to stay up for one more combat exchange. After that exchange ends, you become helpless, uncon- scious, or otherwise incapable of continuing on, and are taken out as normal."
+        },
+        {
+            "Name": "You Missed Something",
+            "Description": "When you evaluate a friendly NPC's plan to get something done, roll with <strong>Focus</strong>. On a hit, the GM tells you how you can drastically improve the chances of success; get it done, and they're sure to come through on top. On a 7-9, the problems inherent in the plan are fairly serious; the NPC will be resistant to making the necessary changes. On a miss, something about the plan throws you for a loop; the GM tells you what obvious danger the NPC is ignoring...or what they're hiding about their intent."
+        },
+        {
+            "Name": "Straight Shooter",
+            "Description": "When you tell an NPC the blunt, honest truth about what you really think of them and their plans, roll with <strong>Focus</strong>. On a hit, they'll look upon your honesty favorably; they'll answer a non-compromising question honestly and grant you a simple favor. On a 7-9, they also give you an honest assessment of how they see you; mark a condition. On a miss, you're a bit too honest—they're either furious or genuinely hurt."
+        }
+    ],
+    "Technique": {
+        "Name": "Tag Team",
+        "Approach": "Defend & Maneuver",
+        "Description": "Work with an ally against the same foe; choose an engaged foe and an ally-—double any fatigue, conditions, or balance shifts that ally inflicts upon that foe."
+    }
+}
